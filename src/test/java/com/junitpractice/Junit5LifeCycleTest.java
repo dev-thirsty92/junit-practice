@@ -20,8 +20,8 @@ public class Junit5LifeCycleTest {
 
     @BeforeEach
     void setUp() {
-        String setUp = "setUp";
-        log.info("{}: 각 테스트가 실행되기 전에 실행", setUp);
+        String beforeEach = "beforeEach";
+        log.info("{}: 각 테스트가 실행되기 전에 실행", beforeEach);
     }
 
     @AfterEach
