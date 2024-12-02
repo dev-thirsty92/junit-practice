@@ -25,3 +25,26 @@
         
   - 위 주석을 제거하고 빌드를 진행하면 아래와 같은 결과가 나온다. (지정 그룹, 제외 그룹을 필터링 하여 테스트를 진행함)
     ![image5.png](images/img5.png)
+
+
+## 단언문
+
+### Assertions
+
+- JUnit 5는 과거 Hamcrest 매처와 함께 사용했던 assertThat 메서드를 더 지원하지 않는다.
+- Hamcrest의 MatcherAssert.assertThat을 오버로딩한 메서드를 사용하는 것을 권장한다.
+
+  ![image6.png](images/img6.png)
+
+
+- **assertAll**
+
+  ![image7.png](images/img7.png)
+
+    - heading
+        - assertAll 메서드 내에서 단언문이 어떤 일을 하는지 알려준다.
+
+- **Supplier<String> messageSuplier**
+    - 테스트가 실패하면  지정한 오류 메세지를 지연 전달한다.
+
+- 단언문에서 람다식을 파라미터로 사용할 떄의 이점은 **지연 전달** 덕분에 성능이 향상되는 데 있다.
