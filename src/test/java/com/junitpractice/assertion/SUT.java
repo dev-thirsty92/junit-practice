@@ -1,5 +1,7 @@
 package com.junitpractice.assertion;
 
+import static java.lang.Thread.sleep;
+
 class SUT {
 
     private String systemName;
@@ -24,5 +26,13 @@ class SUT {
 
     public Job getCurrentJob() {
         return currentJob;
+    }
+
+    public void addJob(Job job1) {
+        this.currentJob = job1;
+    }
+
+    public void run(int milliseconds) throws InterruptedException {
+        sleep(milliseconds);
     }
 }

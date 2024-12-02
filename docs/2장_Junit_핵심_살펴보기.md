@@ -48,3 +48,30 @@
     - 테스트가 실패하면  지정한 오류 메세지를 지연 전달한다.
 
 - 단언문에서 람다식을 파라미터로 사용할 떄의 이점은 **지연 전달** 덕분에 성능이 향상되는 데 있다.
+
+
+### assertTimeout, assertTimeoutPreemptively
+
+- JUnit 4 Timeout rule을 대체 한다.
+
+- **assertTimeout**
+
+  ![image8.png](images/img8.png)
+
+  ![image9.png](images/img9.png)
+
+  ![imgage10.png](images/img10.png)
+
+    - 테스트가 주어진 시간을 초과하면 테스트가 얼마나 늦어졌는지 알려준다.
+
+
+- - **assertTimeoutPreemptively**
+- pre-emptive는 사전적으로 1.선제의, 예방의, 우선권이 있는 이라는 뜻이다.
+
+  ![image11.png](images/img11.png)
+
+  ![image12.png](images/img12.png)
+
+  ![image13.png](images/img13.png)
+
+    - 시간이 지나면 executable 객체를 중지시킨다.
