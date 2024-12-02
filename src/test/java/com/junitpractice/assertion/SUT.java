@@ -5,11 +5,14 @@ import org.mockito.internal.stubbing.answers.ThrowsException;
 
 import static java.lang.Thread.sleep;
 
-class SUT {
+public class SUT {
 
     private String systemName;
     private boolean isVerified = false;
     private Job currentJob;
+
+    public SUT() {
+    }
 
     public SUT(String systemName) {
         this.systemName = systemName;
@@ -47,5 +50,23 @@ class SUT {
         if(getCurrentJob() == null){
             throw new NoJobException("테스트 대상 시스템은 현재 작업이 없는지 확인");
         }
+    }
+
+
+
+
+    public boolean hasJobToRun() {
+        System.out.println("가정문이 통과되었습니다.");
+        System.out.println("hasJobToRun() 메서드를 수행합니다.");
+        return this.currentJob != null;
+    }
+
+    public void run(Job job) throws NoJobException {
+        this.currentJob = job;
+
+        if(getCurrentJob() == null){
+            throw new NoJobException("테스트 대상 시스템은 현재 작업이 없는지 확인");
+        }
+
     }
 }
