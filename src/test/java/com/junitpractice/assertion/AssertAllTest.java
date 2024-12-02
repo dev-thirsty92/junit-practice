@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class AssertionsTest {
+public class AssertAllTest {
 
     @Test
     @DisplayName("기본적으로 테스트 대상 시스템은 검증하지 않는다")
