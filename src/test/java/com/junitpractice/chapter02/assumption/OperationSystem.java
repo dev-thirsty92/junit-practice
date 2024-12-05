@@ -1,4 +1,4 @@
-package com.junitpractice.assumption;
+package com.junitpractice.chapter02.assumption;
 
 public class OperationSystem {
     private String osName;

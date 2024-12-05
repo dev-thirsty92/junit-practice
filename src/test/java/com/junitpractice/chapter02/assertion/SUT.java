@@ -1,7 +1,4 @@
-package com.junitpractice.assertion;
-
-import net.bytebuddy.implementation.bytecode.Throw;
-import org.mockito.internal.stubbing.answers.ThrowsException;
+package com.junitpractice.chapter02.assertion;
 
 import static java.lang.Thread.sleep;
 

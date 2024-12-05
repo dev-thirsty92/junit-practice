@@ -1,4 +1,4 @@
-package com.junitpractice.resolver;
+package com.junitpractice.chapter02.resolver;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.BeforeEach;

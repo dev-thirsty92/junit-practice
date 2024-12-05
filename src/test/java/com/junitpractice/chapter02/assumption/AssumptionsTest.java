@@ -1,8 +1,8 @@
-package com.junitpractice.assumption;
+package com.junitpractice.chapter02.assumption;
 
-import com.junitpractice.assertion.Job;
-import com.junitpractice.assertion.NoJobException;
-import com.junitpractice.assertion.SUT;
+import com.junitpractice.chapter02.assertion.Job;
+import com.junitpractice.chapter02.assertion.NoJobException;
+import com.junitpractice.chapter02.assertion.SUT;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package com.junitpractice.resolver;
+package com.junitpractice.chapter02.resolver;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestReporter;

@@ -1,4 +1,4 @@
-package com.junitpractice.assertion;
+package com.junitpractice.chapter02.assertion;
 
 public class NoJobException extends Throwable {
 

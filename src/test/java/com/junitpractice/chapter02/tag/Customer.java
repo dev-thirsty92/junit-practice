@@ -1,4 +1,4 @@
-package com.junitpractice.tag;
+package com.junitpractice.chapter02.tag;
 
 public class Customer {
     String name;

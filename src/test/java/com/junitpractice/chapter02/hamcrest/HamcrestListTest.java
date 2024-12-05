@@ -1,4 +1,4 @@
-package com.junitpractice.hamcrest;
+package com.junitpractice.chapter02.hamcrest;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

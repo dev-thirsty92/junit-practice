@@ -1,4 +1,4 @@
-package com.junitpractice.tag;
+package com.junitpractice.chapter02.tag;
 
 import java.util.HashMap;
 

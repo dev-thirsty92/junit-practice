@@ -1,4 +1,4 @@
-package com.junitpractice.tag;
+package com.junitpractice.chapter02.tag;
 
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;

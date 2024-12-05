@@ -1,4 +1,4 @@
-package com.junitpractice.assertion;
+package com.junitpractice.chapter02.assertion;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
