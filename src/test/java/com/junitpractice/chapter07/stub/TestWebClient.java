@@ -39,16 +39,6 @@ public class TestWebClient {
         // Jetty 서버를 중지
     }
 
-    @Test
-//    @Disabled("단순한 테스트 스켈레톤이므로 현재 이 테스트를 실행하면 실패한다.")
-    void testGetContentOk() throws MalformedURLException {
-        String workingContent = client.getContent(new URL(
-                "http://localhost:8081/testGetContentOk"));
-        assertEquals("It Works", workingContent);
-
-    }
-
-
     private static class TestGetContentOkHandler extends AbstractHandler{
 
         @Override
@@ -62,4 +52,14 @@ public class TestWebClient {
             out.flush();
         }
     }
+
+    @Test
+//    @Disabled("단순한 테스트 스켈레톤이므로 현재 이 테스트를 실행하면 실패한다.")
+    void testGetContentOk() throws MalformedURLException {
+        String workingContent = client.getContent(new URL(
+                "http://localhost:8081/testGetContentOk"));
+        assertEquals("It Works", workingContent);
+
+    }
+
 }
